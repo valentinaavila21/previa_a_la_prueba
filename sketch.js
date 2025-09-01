@@ -1,16 +1,16 @@
 const trabajos = [
     {
-        photo: "https://valentinaavila21.github.io/previa_a_la_prueba/img/photo-1.webp",
+        photo: "https://valentinaavila21.github.io/previa_a_la_prueba/img/1.webp",
         title: "objeto de luz",
        description: "Trabajo de pryecto II, con Prof. Pradenas.",
     }, 
     {
-        photo: "https://valentinaavila21.github.io/previa_a_la_prueba/img/photo-2.webp",
+        photo: "https://valentinaavila21.github.io/previa_a_la_prueba/img/2.webp",
         title: "Exhibidor y contenedor de luz",
         description: "Trabajo de pryecto II, con Prof. Pradenas.",
     }, 
     {
-        photo: "https://valentinaavila21.github.io/previa_a_la_prueba/img/photo-3.webp",
+        photo: "https://valentinaavila21.github.io/previa_a_la_prueba/img/3.webp",
         title: "",
         description: "Trabajo de pryecto III, con Prof. Petruska.",
     } 
