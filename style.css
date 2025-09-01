@@ -82,18 +82,8 @@ div#otredad div img:hover {
     filter: grayscale(0);
 }
 
-div#portafolio div{
-    padding: 0.5rem;
-    width: calc(50% - 1rem);
-    float: left; 
-}
-
-div#portafolio div img{
-    width:100%;
-
-    div#final{
+div#final{
     clear:both;
     text-align:center;
     padding:1rem;
 }
-
