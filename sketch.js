@@ -1,6 +1,6 @@
 const trabajos = [
     {
-        photo: "https://picsum.photos/id/19/400/300",
+        photo: "https://valentinaavila21.github.io/previa_a_la_prueba/img/photo-1.webp",
         title: "objeto de luz",
        description: "Trabajo de pryecto II, con Prof. Pradenas.",
     }, 
