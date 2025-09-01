@@ -275,12 +275,23 @@ function draw() {
     translate(0, -valor / 4, -valor / 7);
     sphere(valor / 4);
     pop();
+    
     push();
     fill("blue");
-    sphere(valor / 5);
+     translate(90,50,2);
+    torus(valor/ 9);
     pop();
+    
+    push();
+    fill("blue");
+     translate(-90,50,2);
+    torus(valor /9);
+    pop();
+    
+    
 }
 
 function windowResized() {
     resizeCanvas(valor, valor);
 }
+
