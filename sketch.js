@@ -5,14 +5,14 @@ const trabajos = [
        description: "Trabajo de pryecto II, con Prof. Pradenas.",
     }, 
     {
-        photo: "https://picsum.photos/id/18/400/300",
+        photo: "https://valentinaavila21.github.io/previa_a_la_prueba/img/photo-2.webp",
         title: "Exhibidor y contenedor de luz",
         description: "Trabajo de pryecto II, con Prof. Pradenas.",
     }, 
     {
-        photo: "https://picsum.photos/id/25/400/300",
+        photo: "https://valentinaavila21.github.io/previa_a_la_prueba/img/photo-3.webp",
         title: "",
-        description: "Trabajo de pryecto II, con Prof. Pradenas.",
+        description: "Trabajo de pryecto III, con Prof. Petruska.",
     } 
 ]; 
 const datos = [
