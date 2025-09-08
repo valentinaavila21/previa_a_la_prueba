@@ -264,29 +264,60 @@ function setup() {
 function draw() {
     background("white");
     orbitControl();
-    pointLight(255, 255, 255, valor / 3, valor / 2, 50);
+    pointLight(255, 255, 255, valor / 3, valor / 2, 700);
     specularMaterial(255);
     shininess(50);
     metalness(1);
 
     // Add shapes.
     push();
-    fill("red");
+    fill("lightpink");
     translate(0, -valor / 4, -valor / 7);
-    sphere(valor / 4);
+    sphere(valor / 3);
     pop();
     
     push();
-    fill("blue");
-     translate(90,50,2);
+    fill("black");
+     translate(90,-100,100);
     torus(valor/ 9);
     pop();
     
     push();
-    fill("blue");
-     translate(-90,50,2);
+    fill("black");
+     translate(-90,-100,100);
     torus(valor /9);
     pop();
+    
+    push ();
+    fill ("black");
+    translate (-1,-100,100);
+     rotateZ(HALF_PI);
+    //(radio, alto, detalleX, detalleY, tapaInferior, tapaSuperior)
+    cylinder (8, 65, 48, 1, true, true);
+    pop();
+    
+    push();
+    fill("red");
+    translate(-10,30,-80);
+    cylinder (valor/2, 40, 48, 1, true, true);
+    pop();
+    
+    push();
+    fill("red");
+    translate(-10,70,-80);
+    cylinder (130, 110, 48, 1, true, true);
+    pop ();
+    
+    push();
+    fill("pink");
+    translate (-1,-100,100);
+    sphere(20); 
+    pop (); 
+    
+    
+    
+    
+   
     
     
 }
