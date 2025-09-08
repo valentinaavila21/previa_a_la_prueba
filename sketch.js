@@ -298,13 +298,13 @@ function draw() {
     
     push();
     fill("red");
-    translate(-10,30,-80);
+    translate(-10,-220,-80);
     cylinder (valor/2, 40, 48, 1, true, true);
     pop();
     
     push();
     fill("red");
-    translate(-10,70,-80);
+    translate(-10,-260,-80);
     cylinder (130, 110, 48, 1, true, true);
     pop ();
     
