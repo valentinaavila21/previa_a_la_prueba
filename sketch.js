@@ -309,17 +309,17 @@ function draw() {
     pop ();
     
     push();
+    fill("white");
+    translate(-10,-260,-80);
+    cylinder (135, 30, 48, 1, true, true);
+    pop ();
+    
+    push();
     fill("pink");
     translate (-1,-100,100);
     sphere(20); 
     pop (); 
-    
-    
-    
-    
-   
-    
-    
+        
 }
 
 function windowResized() {
